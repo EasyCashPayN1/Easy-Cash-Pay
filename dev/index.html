@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="vieeport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+<body>        
+    <p>this is simple test wallet</p>
+     
+    <form action="/wallet" method="POST">
+        <div>
+            <label>Amount: </label>
+            <input type="Number" class="form-control" placeholder="Amount to sender"  name="amount" required>
+        </div> 
+        
+        <div>
+            <label>Recipient Address: </label>
+            <input type="text" class="form-control" name="RecipientAddress" required>
+        </div>
+
+
+        <div>
+            <label>Sender Address:</label>
+            <input type="text" class="form-control" name="senderAddress">
+        </div>
+
+        <button type="submit" class="button">submit</button>
+    
+    </form>
+
+    <STyle>
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .Button {
+            margin-top: 25px;
+            cursor: pointer;
+        }
+        .Form-control {
+            margin-top: 15px;
+        }
+
+    </STyle>
+
+</body>
+</html>
